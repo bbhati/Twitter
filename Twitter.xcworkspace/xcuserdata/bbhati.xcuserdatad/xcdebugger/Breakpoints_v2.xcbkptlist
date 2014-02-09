@@ -375,7 +375,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
             endingLineNumber = "51"
-            landmarkName = "-loginInSafari:callback:success:failure:"
+            landmarkName = "-init"
             landmarkType = "5">
             <Locations>
                <Location
@@ -421,7 +421,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
             endingLineNumber = "41"
-            landmarkName = "-init"
+            landmarkName = "+instancewithoAuthToken:secret:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1487,8 +1487,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
             endingLineNumber = "52"
-            landmarkName = "-loginInSafari:callback:success:failure:"
-            landmarkType = "5">
+            landmarkName = "@implementation MyTwitterClient"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1503,38 +1503,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
             endingLineNumber = "24"
-            landmarkName = "+instancewithoAuthToken:secret:"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "+[MyTwitterClient instancewithoAuthToken:secret:]"
-                  moduleName = "Twitter"
-                  urlString = "file:///Users/bbhati/Documents/ObjectiveC/Twitter/Twitter/MyTwitterClient.m"
-                  timestampString = "413506672.534032"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "110">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__49+[MyTwitterClient instancewithoAuthToken:secret:]_block_invoke"
-                  moduleName = "Twitter"
-                  urlString = "file:///Users/bbhati/Documents/ObjectiveC/Twitter/Twitter/MyTwitterClient.m"
-                  timestampString = "413506672.534433"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "21">
-               </Location>
-            </Locations>
+            landmarkName = "@implementation MyTwitterClient"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1551,6 +1521,36 @@
             endingLineNumber = "29"
             landmarkName = "+instancewithoAuthToken:secret:"
             landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MyTwitterClient instancewithoAuthToken:secret:]"
+                  moduleName = "Twitter"
+                  urlString = "file:///Users/bbhati/Downloads/Merging/Twitter/MyTwitterClient.m"
+                  timestampString = "413617565.797317"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49+[MyTwitterClient instancewithoAuthToken:secret:]_block_invoke"
+                  moduleName = "Twitter"
+                  urlString = "file:///Users/bbhati/Downloads/Merging/Twitter/MyTwitterClient.m"
+                  timestampString = "413617565.797641"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

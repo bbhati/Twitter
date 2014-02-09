@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="v2M-S5-tAc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="1NT-j9-NSC">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eno-eq-XeC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="es1-i4-0w1" customClass="HomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zLi-2V-bbG"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cqf-Mj-r4K"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uBO-ix-ZgU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LIv-4E-HDj">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="504" id="Y6K-bW-caq"/>
+                                    <constraint firstAttribute="width" constant="320" id="giS-in-doS"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eNo-3I-hbH">
+                                <rect key="frame" x="0.0" y="503" width="320" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkG-87-nB8">
+                                        <rect key="frame" x="241" y="18" width="59" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Sign In">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onSignIn:" destination="es1-i4-0w1" eventType="touchUpInside" id="wtU-wR-jKW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="ic9-CJ-g4o"/>
+                                    <constraint firstAttribute="width" constant="320" id="xQI-lM-hXS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Cqf-Mj-r4K" firstAttribute="top" secondItem="eNo-3I-hbH" secondAttribute="bottom" id="9kH-Cj-DC1"/>
+                            <constraint firstAttribute="trailing" secondItem="eNo-3I-hbH" secondAttribute="trailing" id="KM2-X6-b6S"/>
+                            <constraint firstItem="LIv-4E-HDj" firstAttribute="leading" secondItem="uBO-ix-ZgU" secondAttribute="leading" id="Qrz-aw-UH8"/>
+                            <constraint firstItem="LIv-4E-HDj" firstAttribute="top" secondItem="uBO-ix-ZgU" secondAttribute="top" id="Wlg-zO-QF6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="E2W-pF-QLy"/>
+                    <connections>
+                        <outlet property="mainImage" destination="LIv-4E-HDj" id="Q0p-dm-WKZ"/>
+                        <outlet property="signUpBar" destination="eNo-3I-hbH" id="Z3N-Vx-uHh"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="667" y="456"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ALr-2i-aPK">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fOD-gw-f1n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="v2M-S5-tAc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UDT-B4-i68">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="es1-i4-0w1" kind="relationship" relationship="rootViewController" id="gm9-n6-Bpe"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="141" y="456"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

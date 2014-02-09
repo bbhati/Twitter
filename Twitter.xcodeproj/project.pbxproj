@@ -21,15 +21,6 @@
 		1CBC0C9B189DF04F0047E19E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBC0C7A189DF04F0047E19E /* UIKit.framework */; };
 		1CBC0CA3189DF04F0047E19E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CBC0CA1189DF04F0047E19E /* InfoPlist.strings */; };
 		1CBC0CA5189DF04F0047E19E /* TwitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC0CA4189DF04F0047E19E /* TwitterTests.m */; };
-		1CBC0CC7189DF0750047E19E /* ButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC0CAF189DF0740047E19E /* ButtonCell.m */; };
-		1CBC0CC8189DF0750047E19E /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC0CB1189DF0740047E19E /* ComposeViewController.m */; };
-		1CBC0CC9189DF0750047E19E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC0CB3189DF0740047E19E /* HomeViewController.m */; };
-		1CBC0CCA189DF0750047E19E /* SignInCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC0CB5189DF0740047E19E /* SignInCell.m */; };
-		1CBC0CCD189DF0750047E19E /* TimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC0CBB189DF0740047E19E /* TimeLineCell.m */; };
-		1CBC0CCF189DF0750047E19E /* TimeLineViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CBC0CBD189DF0750047E19E /* TimeLineViewCell.xib */; };
-		1CBC0CD0189DF0750047E19E /* TimeLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC0CBF189DF0750047E19E /* TimeLineViewController.m */; };
-		1CBC0CD1189DF0750047E19E /* TimeLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CBC0CC0189DF0750047E19E /* TimeLineViewController.xib */; };
-		1CBC0CD9189DF20F0047E19E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBC0CD7189DF20E0047E19E /* Main.storyboard */; };
 		1CEF7CF118A0B28200791417 /* MyTwitterClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEF7CF018A0B28200791417 /* MyTwitterClient.m */; };
 		1CF5A00918A220CE00D60E34 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5A00818A220CE00D60E34 /* Tweet.m */; };
 		1CF5A00C18A221A100D60E34 /* NSDictionary+CPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5A00B18A221A100D60E34 /* NSDictionary+CPAdditions.m */; };
@@ -46,6 +37,15 @@
 		1CF5A06A18A503B400D60E34 /* GlobalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5A06918A503B400D60E34 /* GlobalStore.m */; };
 		1CF5A07118A521CF00D60E34 /* ComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF5A07018A521CF00D60E34 /* ComposeViewController.xib */; };
 		1CF5A07318A5456800D60E34 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF5A07218A5456800D60E34 /* twitter.png */; };
+		1CF5A0AF18A74D6300D60E34 /* ButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5A0A218A74D6300D60E34 /* ButtonCell.m */; };
+		1CF5A0B018A74D6300D60E34 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5A0A418A74D6300D60E34 /* ComposeViewController.m */; };
+		1CF5A0B118A74D6300D60E34 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5A0A618A74D6300D60E34 /* HomeViewController.m */; };
+		1CF5A0B218A74D6300D60E34 /* SignInCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5A0A818A74D6300D60E34 /* SignInCell.m */; };
+		1CF5A0B318A74D6300D60E34 /* TimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5A0AA18A74D6300D60E34 /* TimeLineCell.m */; };
+		1CF5A0B418A74D6300D60E34 /* TimeLineViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF5A0AB18A74D6300D60E34 /* TimeLineViewCell.xib */; };
+		1CF5A0B518A74D6300D60E34 /* TimeLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5A0AD18A74D6300D60E34 /* TimeLineViewController.m */; };
+		1CF5A0B618A74D6300D60E34 /* TimeLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF5A0AE18A74D6300D60E34 /* TimeLineViewController.xib */; };
+		1CF5A0B818A74D7F00D60E34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF5A0B718A74D7F00D60E34 /* Main.storyboard */; };
 		776C95E80C634FF7BD84C11C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D1AABAFAAA49EFB3A4E8E3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -81,21 +81,6 @@
 		1CBC0CA0189DF04F0047E19E /* TwitterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterTests-Info.plist"; sourceTree = "<group>"; };
 		1CBC0CA2189DF04F0047E19E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1CBC0CA4189DF04F0047E19E /* TwitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterTests.m; sourceTree = "<group>"; };
-		1CBC0CAE189DF0740047E19E /* ButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonCell.h; path = ../../TwitterlClient/TwitterlClient/ButtonCell.h; sourceTree = "<group>"; };
-		1CBC0CAF189DF0740047E19E /* ButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonCell.m; path = ../../TwitterlClient/TwitterlClient/ButtonCell.m; sourceTree = "<group>"; };
-		1CBC0CB0189DF0740047E19E /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComposeViewController.h; path = ../../TwitterlClient/TwitterlClient/ComposeViewController.h; sourceTree = "<group>"; };
-		1CBC0CB1189DF0740047E19E /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComposeViewController.m; path = ../../TwitterlClient/TwitterlClient/ComposeViewController.m; sourceTree = "<group>"; };
-		1CBC0CB2189DF0740047E19E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../../TwitterlClient/TwitterlClient/HomeViewController.h; sourceTree = "<group>"; };
-		1CBC0CB3189DF0740047E19E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../../TwitterlClient/TwitterlClient/HomeViewController.m; sourceTree = "<group>"; };
-		1CBC0CB4189DF0740047E19E /* SignInCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignInCell.h; path = ../../TwitterlClient/TwitterlClient/SignInCell.h; sourceTree = "<group>"; };
-		1CBC0CB5189DF0740047E19E /* SignInCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignInCell.m; path = ../../TwitterlClient/TwitterlClient/SignInCell.m; sourceTree = "<group>"; };
-		1CBC0CBA189DF0740047E19E /* TimeLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeLineCell.h; path = ../../TwitterlClient/TwitterlClient/TimeLineCell.h; sourceTree = "<group>"; };
-		1CBC0CBB189DF0740047E19E /* TimeLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeLineCell.m; path = ../../TwitterlClient/TwitterlClient/TimeLineCell.m; sourceTree = "<group>"; };
-		1CBC0CBD189DF0750047E19E /* TimeLineViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TimeLineViewCell.xib; path = ../../TwitterlClient/TwitterlClient/TimeLineViewCell.xib; sourceTree = "<group>"; };
-		1CBC0CBE189DF0750047E19E /* TimeLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeLineViewController.h; path = ../../TwitterlClient/TwitterlClient/TimeLineViewController.h; sourceTree = "<group>"; };
-		1CBC0CBF189DF0750047E19E /* TimeLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeLineViewController.m; path = ../../TwitterlClient/TwitterlClient/TimeLineViewController.m; sourceTree = "<group>"; };
-		1CBC0CC0189DF0750047E19E /* TimeLineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TimeLineViewController.xib; path = ../../TwitterlClient/TwitterlClient/TimeLineViewController.xib; sourceTree = "<group>"; };
-		1CBC0CD8189DF20F0047E19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../TwitterlClient/TwitterlClient/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CEF7CEF18A0B28200791417 /* MyTwitterClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTwitterClient.h; sourceTree = "<group>"; };
 		1CEF7CF018A0B28200791417 /* MyTwitterClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTwitterClient.m; sourceTree = "<group>"; };
 		1CF5A00718A220CE00D60E34 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
@@ -119,6 +104,21 @@
 		1CF5A06918A503B400D60E34 /* GlobalStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalStore.m; sourceTree = "<group>"; };
 		1CF5A07018A521CF00D60E34 /* ComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeViewController.xib; sourceTree = "<group>"; };
 		1CF5A07218A5456800D60E34 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		1CF5A0A118A74D6300D60E34 /* ButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCell.h; sourceTree = "<group>"; };
+		1CF5A0A218A74D6300D60E34 /* ButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCell.m; sourceTree = "<group>"; };
+		1CF5A0A318A74D6300D60E34 /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		1CF5A0A418A74D6300D60E34 /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		1CF5A0A518A74D6300D60E34 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1CF5A0A618A74D6300D60E34 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1CF5A0A718A74D6300D60E34 /* SignInCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInCell.h; sourceTree = "<group>"; };
+		1CF5A0A818A74D6300D60E34 /* SignInCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInCell.m; sourceTree = "<group>"; };
+		1CF5A0A918A74D6300D60E34 /* TimeLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineCell.h; sourceTree = "<group>"; };
+		1CF5A0AA18A74D6300D60E34 /* TimeLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineCell.m; sourceTree = "<group>"; };
+		1CF5A0AB18A74D6300D60E34 /* TimeLineViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeLineViewCell.xib; sourceTree = "<group>"; };
+		1CF5A0AC18A74D6300D60E34 /* TimeLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineViewController.h; sourceTree = "<group>"; };
+		1CF5A0AD18A74D6300D60E34 /* TimeLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineViewController.m; sourceTree = "<group>"; };
+		1CF5A0AE18A74D6300D60E34 /* TimeLineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeLineViewController.xib; sourceTree = "<group>"; };
+		1CF5A0B718A74D7F00D60E34 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		89D1AABAFAAA49EFB3A4E8E3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -199,23 +199,23 @@
 				1CF5A00818A220CE00D60E34 /* Tweet.m */,
 				1CF5A00A18A221A100D60E34 /* NSDictionary+CPAdditions.h */,
 				1CF5A00B18A221A100D60E34 /* NSDictionary+CPAdditions.m */,
-				1CBC0CD7189DF20E0047E19E /* Main.storyboard */,
-				1CBC0CAE189DF0740047E19E /* ButtonCell.h */,
-				1CBC0CAF189DF0740047E19E /* ButtonCell.m */,
-				1CBC0CB0189DF0740047E19E /* ComposeViewController.h */,
-				1CBC0CB1189DF0740047E19E /* ComposeViewController.m */,
-				1CBC0CB2189DF0740047E19E /* HomeViewController.h */,
-				1CBC0CB3189DF0740047E19E /* HomeViewController.m */,
-				1CBC0CB4189DF0740047E19E /* SignInCell.h */,
-				1CBC0CB5189DF0740047E19E /* SignInCell.m */,
-				1CBC0CBA189DF0740047E19E /* TimeLineCell.h */,
-				1CBC0CBB189DF0740047E19E /* TimeLineCell.m */,
+				1CF5A0B718A74D7F00D60E34 /* Main.storyboard */,
+				1CF5A0A118A74D6300D60E34 /* ButtonCell.h */,
+				1CF5A0A218A74D6300D60E34 /* ButtonCell.m */,
+				1CF5A0A318A74D6300D60E34 /* ComposeViewController.h */,
+				1CF5A0A418A74D6300D60E34 /* ComposeViewController.m */,
+				1CF5A0A518A74D6300D60E34 /* HomeViewController.h */,
+				1CF5A0A618A74D6300D60E34 /* HomeViewController.m */,
+				1CF5A0A718A74D6300D60E34 /* SignInCell.h */,
+				1CF5A0A818A74D6300D60E34 /* SignInCell.m */,
+				1CF5A0A918A74D6300D60E34 /* TimeLineCell.h */,
+				1CF5A0AA18A74D6300D60E34 /* TimeLineCell.m */,
+				1CF5A0AB18A74D6300D60E34 /* TimeLineViewCell.xib */,
+				1CF5A0AC18A74D6300D60E34 /* TimeLineViewController.h */,
+				1CF5A0AD18A74D6300D60E34 /* TimeLineViewController.m */,
+				1CF5A0AE18A74D6300D60E34 /* TimeLineViewController.xib */,
 				1CF5A05118A400AC00D60E34 /* TweetViewCell.h */,
 				1CF5A05218A400AC00D60E34 /* TweetViewCell.m */,
-				1CBC0CBD189DF0750047E19E /* TimeLineViewCell.xib */,
-				1CBC0CBE189DF0750047E19E /* TimeLineViewController.h */,
-				1CBC0CBF189DF0750047E19E /* TimeLineViewController.m */,
-				1CBC0CC0189DF0750047E19E /* TimeLineViewController.xib */,
 				1CF5A04F18A3FA7100D60E34 /* TweetViewCell.xib */,
 				1CBC0C85189DF04F0047E19E /* AppDelegate.h */,
 				1CBC0C86189DF04F0047E19E /* AppDelegate.m */,
@@ -356,17 +356,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CF5A07118A521CF00D60E34 /* ComposeViewController.xib in Resources */,
+				1CF5A0B618A74D6300D60E34 /* TimeLineViewController.xib in Resources */,
 				1CF5A06018A4630100D60E34 /* Comment-1@2x.png in Resources */,
-				1CBC0CD9189DF20F0047E19E /* Main.storyboard in Resources */,
+				1CF5A0B418A74D6300D60E34 /* TimeLineViewCell.xib in Resources */,
 				1CF5A06118A4630100D60E34 /* retweet.png in Resources */,
+				1CF5A0B818A74D7F00D60E34 /* Main.storyboard in Resources */,
 				1CF5A05F18A4630100D60E34 /* Comment.png in Resources */,
 				1CF5A05018A3FA7100D60E34 /* TweetViewCell.xib in Resources */,
 				1CF5A06218A4630100D60E34 /* Repeat@2x.png in Resources */,
 				1CF5A07318A5456800D60E34 /* twitter.png in Resources */,
 				1CBC0C92189DF04F0047E19E /* Images.xcassets in Resources */,
 				1CF5A00E18A234D600D60E34 /* ActiveSupport2iOS_Timezones.plist in Resources */,
-				1CBC0CCF189DF0750047E19E /* TimeLineViewCell.xib in Resources */,
-				1CBC0CD1189DF0750047E19E /* TimeLineViewController.xib in Resources */,
 				1CBC0C81189DF04F0047E19E /* InfoPlist.strings in Resources */,
 				1CF5A06418A4637400D60E34 /* star.png in Resources */,
 			);
@@ -421,22 +421,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CBC0C87189DF04F0047E19E /* AppDelegate.m in Sources */,
+				1CF5A0B218A74D6300D60E34 /* SignInCell.m in Sources */,
+				1CF5A0AF18A74D6300D60E34 /* ButtonCell.m in Sources */,
 				1CF5A06A18A503B400D60E34 /* GlobalStore.m in Sources */,
-				1CBC0CCA189DF0750047E19E /* SignInCell.m in Sources */,
+				1CF5A0B118A74D6300D60E34 /* HomeViewController.m in Sources */,
 				1CF5A05918A44AD800D60E34 /* Utils.m in Sources */,
-				1CBC0CCD189DF0750047E19E /* TimeLineCell.m in Sources */,
 				1CEF7CF118A0B28200791417 /* MyTwitterClient.m in Sources */,
 				1C11B209189E2BA7008BBE24 /* User.m in Sources */,
-				1CBC0CC7189DF0750047E19E /* ButtonCell.m in Sources */,
 				1CF5A05318A400AC00D60E34 /* TweetViewCell.m in Sources */,
+				1CF5A0B318A74D6300D60E34 /* TimeLineCell.m in Sources */,
 				1CBC0C83189DF04F0047E19E /* main.m in Sources */,
 				1CF5A00C18A221A100D60E34 /* NSDictionary+CPAdditions.m in Sources */,
 				1CF5A00918A220CE00D60E34 /* Tweet.m in Sources */,
-				1CBC0CC9189DF0750047E19E /* HomeViewController.m in Sources */,
+				1CF5A0B518A74D6300D60E34 /* TimeLineViewController.m in Sources */,
 				1C11B20C189E2C63008BBE24 /* RestObject.m in Sources */,
-				1CBC0CC8189DF0750047E19E /* ComposeViewController.m in Sources */,
 				1CF5A05618A403C000D60E34 /* TweetViewController.m in Sources */,
-				1CBC0CD0189DF0750047E19E /* TimeLineViewController.m in Sources */,
+				1CF5A0B018A74D6300D60E34 /* ComposeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,15 +473,6 @@
 				1CBC0CA2189DF04F0047E19E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1CBC0CD7189DF20E0047E19E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CBC0CD8189DF20F0047E19E /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
